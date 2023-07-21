@@ -1,0 +1,140 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.but{
+  border-radius: 8px;
+  background: #000;
+  color: white;
+  margin-left: 10px;
+}
+.but:hover{
+  border-radius: 12px;
+  background: #ff0404;
+  color: rgb(38, 255, 0);
+}
+.col-3{
+  background: #26ff0a;
+  border-radius: 15px;
+  width: 22%;
+  margin-left: 20px;
+}
+.col-9{
+  background: #ff12df;
+   margin-left: 10px;
+   border-radius: 15px;
+}
+
+.hed{
+  background: #0800ff;
+  padding: 2px;
+  color: #ff892f;
+  font-weight: bolder;
+}
+
+#cc{
+  background: rgb(3, 255, 226);
+  border-radius: 10px;
+  box-shadow: 10px 20px 30px rgb(0, 0, 0);
+}
+
+.card-title{
+  font-style: italic;
+  font-weight: bold;
+  color: #f30505;
+}
+#em{
+  color: #0101ff;
+  
+}
+#mob{
+  color: #000000;
+  font-weight: bolder;
+}
+#ag{
+  color: #ff00bb;
+  font-weight: bolder;
+  font-size: 20px;
+}
+#sea{
+  margin-top: 6px;
+  width: 450px;
+  border-radius: 8px;
+  height: 32px;
+  background: #ffffff;
+  color: rgb(0, 0, 0);
+}
+.c{
+  text-align: center;
+  display: flex;
+  justify-content:space-around;
+}
+
+#reg{
+  font-weight: bolder;
+  font-size: 35px;
+  padding: 8px;
+}
+
+#da{
+  font-weight: bolder;
+
+}
+.col-3.t{
+background: #f2ff00;
+}
+
+
+
+.sin{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #25eb0a;
+}
+
+#sinda{
+   width: 300px;
+   padding: 20px;
+   background: #ff4400;
+   border-radius: 15px;
+   box-shadow: 10px 20px 30px rgb(0, 0, 0);
+}
+.aco{
+  cursor: pointer;
+  margin-top: 5px;
+  color: #ffffff;
+  text-decoration:none;
+}
+
+.sinn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #0adeff;
+}
+
+#sindaa{
+   width: 300px;
+   padding: 20px;
+   background: #ff0890;
+   border-radius: 15px;
+   box-shadow: 10px 20px 30px rgb(0, 0, 0);
+}
+.mm{
+  display: flex;
+  justify-content: space-around;
+  background: #0d00ff;
+}
